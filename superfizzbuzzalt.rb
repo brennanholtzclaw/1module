@@ -1,23 +1,31 @@
-sfb = (0..1000).to_a
-s = "Super"
-f = "Fizz"
-b = "Buzz"
+sfb = (0..1000)
 
-def three(num)
-  num % 3 == 0 ?
-end
-
-def five(num)
-  num % 5 == 0 ?
-end
-
-def seven(num)
-  num % 7 == 0 ?
-end
+puts sfb.step(100)
 
 
-sfb.each do |number|
-  if number.three.five.seven == true
-    puts s + f + b
-  end
-end
+#sfb = (0..1000).to_a
+#s = "Super"
+#f = "Fizz"
+#b = "Buzz"
+
+#def three(num)
+#  if num % 3 == 0
+#    puts f
+#  end
+#end
+
+#def five(num)
+#  if num % 5 == 0
+#    puts b
+#  end
+#end
+
+#def seven(num)
+#  if num % 7 == 0
+#    puts s
+#  end
+#end
+
+#sfb.each do |number|
+#  number.three.five.seven
+#end

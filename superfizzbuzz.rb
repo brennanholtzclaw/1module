@@ -12,10 +12,13 @@ sfb.each do |number|
     puts "Buzz"
   elsif (number % 7 == 0)
     puts "Super"
-#  elsif number == 0
-#    puts "Can you really divide 0 by anything?"
-#    would need to put this above first if
   else
     puts number
   end
 end
+
+
+
+#  if number == 0
+#    puts "Can you really divide 0 by anything?"
+##   would need to put this above first if
