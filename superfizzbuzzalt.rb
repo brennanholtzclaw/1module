@@ -1,6 +1,7 @@
 sfb = (0..1000)
-
-puts sfb.step(100)
+sfb.step(135).each do |number|
+  puts number
+end
 
 
 #sfb = (0..1000).to_a
